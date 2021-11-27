@@ -3,13 +3,26 @@ import React from 'react';
 const Dropdown = ({options, selected, onSelectedChange}) => {
 
     const renderedOptions = options.map((option) => {
+        if (option.value === selected.value) {
+            return (
+                <div key={option.value} className="item"
+                     onClick={() => onSelectedChange(option)}
+                >
+                    <i className="ae flag"></i>
+                    {option.label}
+                </div>
+            )
+        }
+
+
         return (
-          <div key={option.value} className="item">
-              {option.label}
-          </div>
+            <div key={option.value} className="item"
+                 onClick={() => onSelectedChange(option)}
+            >
+                {option.label}
+            </div>
         );
     })
-
 
 
     return (
