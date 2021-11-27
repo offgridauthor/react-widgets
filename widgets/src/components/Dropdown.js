@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dropdown = ({options}) => {
+const Dropdown = ({options, selected, onSelectedChange}) => {
 
     const renderedOptions = options.map((option) => {
         return (
@@ -19,7 +19,7 @@ const Dropdown = ({options}) => {
                 <label className="label">SELECT A COLOR</label>
                 <div className="ui selection dropdown visible active">
                     <i className="dropdown icon"></i>
-                    <div className="text">select color</div>
+                    <div className="text">{selected.label}</div>
                     <div className="menu visible transition">
                         {renderedOptions}
                     </div>
