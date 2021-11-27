@@ -6,7 +6,11 @@ const Search = () => {
     const [results, setResults] = useState([]);
 
     useEffect(() => {
-        
+        // initial render
+
+        return () => {
+            //cleanup; rerender
+        }
     }, [term])
 
     useEffect(() => {
@@ -23,12 +27,23 @@ const Search = () => {
             setResults(data.query.search)
 
         };
-        setTimeout(() => {
-            if (term) {
-                search();
+
+        if (term && !results.length) {
+            search();
+        } else {
+            const timeoutId = setTimeout(() => {
+                if (term) {
+                    search();
+                }
+            }, 500)
+
+            return () => {
+                clearTimeout(timeoutId)
             }
 
-        }, 500)
+
+        }
+
     }, [term])
 
     const renderedResults = results.map((result) => {
