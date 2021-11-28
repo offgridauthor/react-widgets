@@ -6,7 +6,10 @@ const Dropdown = ({options, selected, onSelectedChange}) => {
     const ref = useRef();
 
     useEffect(() => {
-        document.body.addEventListener('click', () => {
+        document.body.addEventListener('click', (event) => {
+            if(ref.current.contains(event.target)){
+                return;// if click happens inside component
+            }
                 setOpen(false); // body clicked
             }, {capture: true}
         )
