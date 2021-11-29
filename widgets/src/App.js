@@ -33,6 +33,7 @@ export default () => {
 
     return (
         <div>
+            <Translate/>
             <button onClick={() => setShowDropdown(!showDropdown)}>Toggle dropdown</button>
             {showDropdown ?
                 <Dropdown options={options}
