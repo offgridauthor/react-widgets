@@ -3,7 +3,6 @@ import Dropdown from "./Dropdown";
 import Convert from './Convert';
 
 
-const APIKEY = 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
 
 const options = [
 
