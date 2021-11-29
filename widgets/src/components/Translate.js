@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Dropdown from "./Dropdown";
+import Convert from './Convert';
 
 
 const APIKEY = 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
@@ -35,6 +36,9 @@ const Translate = () => {
                       onSelectedChange={setLanguage}
                       label="Select yo language"
             />
+            <hr/>
+            <h3 className="ui header">Output</h3>
+            <Convert language={language} text={text} />
         </div>
     )
 
