@@ -1,6 +1,9 @@
 import React, {useState} from 'react';
 import Dropdown from "./Dropdown";
 
+
+const APIKEY = 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
+
 const options = [
 
     {
@@ -21,7 +24,12 @@ const Translate = () => {
 
     return (
         <div>
-            <input value={text} onChange={(e) => setText(e.target.value)}/>
+            <div className="ui form">
+                <div className="field">
+                    <label>Enter text</label>
+                    <input value={text} onChange={(e) => setText(e.target.value)}/>
+                </div>
+            </div>
             <Dropdown options={options}
                       selected={language}
                       onSelectedChange={setLanguage}
