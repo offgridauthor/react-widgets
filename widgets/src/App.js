@@ -26,6 +26,13 @@ const options = [
     }
 ];
 
+const showAccordion = () => {
+
+    if(window.location.pathname === '/') {
+        return <Accordion />
+    }
+}
+
 
 export default () => {
     const [selected, setSelected] = useState(options[0])
@@ -33,6 +40,7 @@ export default () => {
 
     return (
         <div>
+            {showAccordion}
             <Translate/>
             <button onClick={() => setShowDropdown(!showDropdown)}>Toggle dropdown</button>
             {showDropdown ?
