@@ -27,23 +27,44 @@ const options = [
 ];
 
 const showAccordion = () => {
+    if (window.location.pathname === '/') {
+        return <Accordion items={items}/>
+    }
+}
 
-    if(window.location.pathname === '/') {
-        return <Accordion />
+
+const showList = () => {
+    if (window.location.pathname === '/list') {
+        return <Search/>
+    }
+}
+
+const showDropdown = () => {
+    if (window.location.pathname === '/dropdown') {
+        return <Dropdown/>
+    }
+}
+
+const showTranslate = () => {
+    if (window.location.pathname === '/translate') {
+        return <Translate/>
     }
 }
 
 
 export default () => {
     const [selected, setSelected] = useState(options[0])
-    const [showDropdown, setShowDropdown] = useState(true);
+    const [revealDropdown, setRevealDropdown] = useState(true);
 
     return (
         <div>
-            {showAccordion}
+            {showAccordion()}
+            {showList()}
+            {showDropdown()}
+            {showTranslate()}
             <Translate/>
-            <button onClick={() => setShowDropdown(!showDropdown)}>Toggle dropdown</button>
-            {showDropdown ?
+            <button onClick={() => setRevealDropdown(!revealDropdown)}>Toggle dropdown</button>
+            {revealDropdown ?
                 <Dropdown options={options}
                           onSelectedChange={setSelected}
                           selected={selected}
