@@ -1,0 +1,78 @@
+let ah: number = -3;
+let ahh = 3
+
+let nothing: undefined = undefined
+
+let now: Date = new Date();
+let colors: string[] = [
+    'red',
+    'derk',
+    'doop',
+]
+
+let nummies: number[] = [1, 2, 3, 3]
+let truths: boolean[] = [true, true, false]
+
+class Car {
+
+}
+
+let car: Car = new Car()
+
+let point = {
+    x: 10,
+    y: 20
+}
+
+let opoint: { x: number; y: number } = {
+    x: 10,
+    y: 20
+}
+
+const logNum: (i: number) => void = (i: number) => { // left of equals is annotation; function begins after =
+    console.log(i)
+}
+
+// use annotations when...
+// function returns ANY type
+
+const json = '{"x": 10, "y":20}'
+const coordinates: { x: number; y: number } = JSON.parse(json)
+
+// initializing variable later
+
+let apoint: number;
+
+for (let i = 0; i < nummies.length; i++) {
+    apoint += i
+}
+
+// can't properly infer type
+
+/// functions
+
+const add = (a: number, b: number): number => {
+    return a + b
+}
+
+const logger = (message: string): void => {
+    console.log(message)
+}
+
+const throwErr = (message: string): never => {
+    throw new Error(message)
+}
+
+/// destructurin
+
+const listy =
+    ({
+         x,
+         y
+     }: {
+        x: number;
+        y: number;
+    }): void => {
+        console.log(x, y)
+    }
+
