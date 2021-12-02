@@ -104,4 +104,14 @@ const {
 
 const carMakers: string[] = ['tesla', 'tesla2', 'tesla3']
 
+const dates = [new Date(), new Date(), '2020-10-10'] // date or string inference
+
+const carsByMake = [
+    ['cyberdruck'],
+    ['cyberduck'],
+    ['superone']
+]
+const carsByMake2: string[][] = []
+
+
 
