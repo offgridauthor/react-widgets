@@ -76,3 +76,27 @@ const listy =
         console.log(x, y)
     }
 
+
+const profile = {
+    namey: 'alex',
+    age: 20,
+    coords: {
+        lat: 0,
+        lng: 12
+    },
+    setAge(age: number): void {
+        this.age = age
+    }
+}
+
+profile.age = 20
+profile.setAge(20)
+
+const {namey} = profile
+const {age}: { age: number } = profile
+
+// const {coords: {lat, lng}} = profile
+const {
+    coords: {lat, lng}
+}: { coords: { lat: number; lng: number } } = profile
+
