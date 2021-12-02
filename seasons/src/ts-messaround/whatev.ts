@@ -100,3 +100,8 @@ const {
     coords: {lat, lng}
 }: { coords: { lat: number; lng: number } } = profile
 
+/// arrayz
+
+const carMakers: string[] = ['tesla', 'tesla2', 'tesla3']
+
+
