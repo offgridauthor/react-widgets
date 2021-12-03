@@ -114,4 +114,5 @@ const carsByMake = [
 const carsByMake2: string[][] = []
 
 
+const pepsi = ['brown', true, 30]
 
