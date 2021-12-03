@@ -114,5 +114,13 @@ const carsByMake = [
 const carsByMake2: string[][] = []
 
 
-const pepsi = ['brown', true, 30]
+
+const pepsi: [string, boolean, number] = ['brown', true, 30]
+
+type Drink = [string, string, boolean]
+const sprite: Drink = ['clear', 'fatty tissue', false]
+
+const carSpect: [number, number] = [12, 121]
+
+
 
