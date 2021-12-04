@@ -201,7 +201,7 @@ class Kar extends Vehikle{
 }
 }
 
-const vriim = new  Kar()
+const vriim = new  Kar('derp')
 
 vriim.drive()
 
