@@ -114,13 +114,54 @@ const carsByMake = [
 const carsByMake2: string[][] = []
 
 
-
 const pepsi: [string, boolean, number] = ['brown', true, 30]
 
 type Drink = [string, string, boolean]
 const sprite: Drink = ['clear', 'fatty tissue', false]
 
 const carSpect: [number, number] = [12, 121]
+const carStats = {
+    horses: 300,
+    weight: 3
+}
+
+const oldone = {
+    name: 'civic',
+    year: 1999,
+    broken: true
+}
+
+const printVeh = (vehicle: { name: string; year: number; broken: boolean }) => {
+    console.log(vehicle.year)
+}
+
+interface Vehicle {
+    name: string;
+    year: number;
+    broken: boolean;
+
+    summary(): string; // return value of function
+}
+
+const oldone2 = {
+    name: 'civic',
+    year: 1999,
+    broken: true,
+    summary(): string {
+        return `Name: ${this.name}`
+    }
+}
+
+const vehDeets = (vehicle: Vehicle): void => {
+    console.log(vehicle.summary())
+}
 
 
+const drank = {
+    color: 'rain',
+    carbonBased: false,
+    summary(): string {
+        return (this.carbonBased) ? "nrem" : "noerm"
+    }
+}
 
