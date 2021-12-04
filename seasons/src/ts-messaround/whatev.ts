@@ -165,3 +165,29 @@ const drank = {
     }
 }
 
+interface Reportable {
+    summary(): string
+}
+
+const printSummary = (item: Reportable): void => {
+    console.log(item.summary())
+}
+
+//
+class Vehikle {
+    drive(): void {
+        console.log('derp')
+    }
+    honk(): void {
+        console.log("beepderp")
+    }
+}
+
+class Kar extends Vehikle{
+
+}
+
+const vriim = new  Kar()
+
+vriim.drive()
+
