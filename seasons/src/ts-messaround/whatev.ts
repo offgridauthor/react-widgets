@@ -175,7 +175,7 @@ const printSummary = (item: Reportable): void => {
 
 //
 class Vehikle {
-    drive(): void {
+    public drive(): void {
         console.log('derp')
     }
     honk(): void {
@@ -184,7 +184,12 @@ class Vehikle {
 }
 
 class Kar extends Vehikle{
-
+    drive(): string {
+        return "DERP!"
+    }
+    startDriving(): void {
+        this.drive()
+}
 }
 
 const vriim = new  Kar()
