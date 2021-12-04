@@ -175,6 +175,15 @@ const printSummary = (item: Reportable): void => {
 
 //
 class Vehikle {
+    // color: string
+    // constructor(color:string) {
+    //     this.color = color
+    // }
+
+    constructor(public color:string){ // first arg assigned as instance variable 'color'
+
+    }
+
     public drive(): void {
         console.log('derp')
     }
