@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom'
+import GuestList from "./state/GuestList";
 
 
-const App =  () => {
+const App = () => {
     return (
         <div>
-
+            <GuestList/>
         </div>
     )
 }
@@ -12,6 +13,5 @@ const App =  () => {
 ReactDOM.render(
     <App/>,
     document.querySelector('#root')
-
 )
 

@@ -1,9 +1,11 @@
-import {Child} from './Child'
+import {ChildAsFC} from './Child'
 
 const Parent = () => {
 
     return (
-        <Child color="douche" onClick={() => console.log("clicked")}/>
+        <ChildAsFC color="douche" onClick={() => console.log("clicked")}>
+            oien
+        </ChildAsFC>
     )
 }
 
