@@ -7,12 +7,14 @@ A browser-based development environment that can handle importing of packages an
 - work is saved as a local file  
 - dynamic draggable/resizable element creation
 - code is executed in a sandboxed iframe
+- multiple code window components are possible
 - 
 
 ## Libraries/Frameworks
 
 - React (Typescript)
-- `esbuild-wasm` - for in-browser dependency bundling
-- monaco - open source browser editor
+- `esbuild-wasm` - in-browser dependency bundling
+- `monaco` - open source browser editor
 - bulma CSS
+- `react-resizable` - x/y axis component resizing 
 
