@@ -8,7 +8,7 @@ A browser-based development environment that can handle importing of packages an
 - dynamic draggable/resizable element creation
 - code is executed in a sandboxed iframe
 - multiple code window components are possible
-- 
+- markdown editing with preview
 
 ## Libraries/Frameworks
 
@@ -17,4 +17,7 @@ A browser-based development environment that can handle importing of packages an
 - `monaco` - open source browser editor
 - bulma CSS
 - `react-resizable` - x/y axis component resizing 
+- `react-md-editor` - markdown editor
+
+
 
