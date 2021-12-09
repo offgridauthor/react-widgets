@@ -7,6 +7,7 @@ A browser-based development environment that can handle importing of packages an
 - work is saved as a local file  
 - dynamic draggable/resizable element creation
 - code is executed in a sandboxed iframe
+- something else
 
 ## Libraries/Frameworks
 
