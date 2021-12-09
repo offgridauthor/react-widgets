@@ -14,5 +14,5 @@ A browser-based development environment that can handle importing of packages an
 - React (Typescript)
 - `esbuild-wasm` - for in-browser dependency bundling
 - monaco - open source browser editor
-
+- bulma CSS
 
