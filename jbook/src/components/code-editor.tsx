@@ -1,4 +1,6 @@
 import MonacoEditor, {EditorDidMount} from '@monaco-editor/react';
+import prettier from 'prettier'
+import parser from 'prettier/parser-babel'
 
 interface CodeEditorProps {
     initialValue: string;
@@ -7,10 +9,11 @@ interface CodeEditorProps {
 }
 
 const CodeEditor: React.FC<CodeEditorProps> = ({onChange, initialValue}) => {
-    const onEditorDidMount = (getValue: () => string, monacoEditor: any) => {
+    const onEditorDidMount: EditorDidMount = (getValue: () => string, monacoEditor: any) => {
         monacoEditor.onDidChangeModelContent(() => {
             onChange(getValue())
         })
+        monacoEditor.getModel()?.updateOptions({tabSize: 2})
     }
     return <MonacoEditor
         editorDidMount={onEditorDidMount}
