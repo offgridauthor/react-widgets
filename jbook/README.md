@@ -12,7 +12,7 @@ A browser-based development environment that can handle importing of packages an
 
 ## Libraries/Frameworks
 
-- React (Typescript)
+- React (Typescript) with Redux
 - `esbuild-wasm` - in-browser dependency bundling
 - `monaco` - open source browser editor
 - bulma CSS
