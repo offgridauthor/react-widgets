@@ -1,19 +1,12 @@
-import ReactDOM from 'react-dom'
-import GuestList from "./state/GuestList";
-import UserSearch from "./state/UserSearch";
-
+import ReactDOM from 'react-dom';
+import UserSearch from './refs/UserSearch';
 
 const App = () => {
-    return (
-        <div>
-            <GuestList/>
-            <UserSearch/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <UserSearch />
+    </div>
+  );
+};
 
-ReactDOM.render(
-    <App/>,
-    document.querySelector('#root')
-)
-
+ReactDOM.render(<App />, document.querySelector('#root'));
