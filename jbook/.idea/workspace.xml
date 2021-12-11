@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1175ed-5d1f-49f4-8221-f68dc519c307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jbook/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jbook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jbook/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jbook/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jbook/packages/cli/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jbook/packages/cli/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jbook/packages/cli/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jbook/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jbook/packages/cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jbook/packages/local-client/src/bundler/plugins/unpkg-path-plugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jbook/packages/local-client/src/bundler/plugins/unpkg-path-plugin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
         <option value="Solidity Contract" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jbook" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1638985759439</updated>
       <workItem from="1638985762851" duration="20416000" />
-      <workItem from="1639085482629" duration="10635000" />
+      <workItem from="1639085482629" duration="10920000" />
+      <workItem from="1639247749760" duration="42000" />
+      <workItem from="1639247793194" duration="19000" />
     </task>
     <servers />
   </component>
@@ -83,6 +81,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
