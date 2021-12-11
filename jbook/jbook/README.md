@@ -18,3 +18,7 @@
     bulma CSS
     react-resizable - x/y axis component resizing
     react-md-editor - markdown editor
+
+### How to Use
+
+- from /jbook/jbook, run `npm start`
