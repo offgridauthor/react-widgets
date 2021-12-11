@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af1175ed-5d1f-49f4-8221-f68dc519c307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jbook/packages/cli/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jbook/packages/local-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jbook/packages/local-api/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jbook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/esbuild.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bundler/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bundler/plugins/fetch-plugin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bundler/plugins/unpkg-path-plugin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/action-bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/action-bar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/add-cell.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/add-cell.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell-list-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell-list-item.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/code-cell.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/code-cell.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/code-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/code-editor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resizable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resizable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-editor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-cumulative-code.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-typed-selector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/action-creators/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/action-types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/actions/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/cell.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/reducers/bundlesReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/reducers/cellsReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/reducers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="Solidity Contract" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="220sI4dduBCMXj02gOrq7mHZpkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af1175ed-5d1f-49f4-8221-f68dc519c307" name="Default Changelist" comment="" />
+      <created>1638985759439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638985759439</updated>
+      <workItem from="1638985762851" duration="20416000" />
+      <workItem from="1639085482629" duration="10196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
